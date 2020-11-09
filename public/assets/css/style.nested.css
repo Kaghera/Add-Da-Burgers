@@ -1,0 +1,53 @@
+body {
+  display: grid;
+  grid-template-areas: "headerSection" "middleSection" "footerSection";
+  grid-row-gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr 20px;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+body #middleSection {
+  display: grid;
+  grid-area: middleSection;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: black;
+  grid-template-areas: "leftMiddle centerMiddle rightMiddle";
+}
+
+body #headerSection h2 {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body .center {
+  justify-self: center;
+  align-self: center;
+}
+body #headerSection {
+  color: white;
+  position: relative;
+  min-height: 100%;
+  grid-area: headerSection;
+  background: lightseagreen;
+  text-align: center;
+}
+
+body #middleSection .leftMiddle {
+  display: grid;
+  grid-area: leftMiddle;
+}
+body #middleSection .centerMiddle {
+  display: grid;
+  grid-area: centerMiddle;
+}
+body #middleSection .rightMiddle {
+  display: grid;
+  grid-area: rightMiddle;
+}
