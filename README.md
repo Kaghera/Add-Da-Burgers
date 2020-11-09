@@ -10,6 +10,8 @@
 
 * App will store every burger in a database, whether devoured or not.
 
+Application Link: 
+
 ![Screen Shot 2020-11-08 at 8 40 28 PM](https://user-images.githubusercontent.com/63524583/98491409-b496e900-2202-11eb-921b-aa81eccaaa27.png)
 
 #### Directory structure
