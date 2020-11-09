@@ -13,4 +13,7 @@ if(process.env.JAWSDB_URL){
       database: "burgersdb"
     });
 };
+
+connection.connect();
+
 module.exports = connection;
